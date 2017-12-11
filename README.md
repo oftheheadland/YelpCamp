@@ -20,8 +20,8 @@ export SESSION_SECRET=Whatever phrase you choose
 
 Update the variables as follows:
 
-**DATABASEURL** 'mongodb://\<dbuser>:\<dbpassword>@1234.mlab.<span></span>com:19990/yelp-camp'  
-**SESSION_SECRET** 'Whatever phrase you choose'
+**DATABASEURL**=mongodb://\<dbuser>:\<dbpassword>@1234.mlab.<span></span>com:19990/yelp-camp
+**SESSION_SECRET**=Whatever phrase you choose
 
 
 This can be accomplished on the Heroku site by accessing the Config Vars on the Settings page.  
