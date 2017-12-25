@@ -49,6 +49,6 @@ html {
     background-position: center center;
     display: flex;
     flex-wrap: wrap;
-    border-radius: 3.5%;
+    /* border-radius: 3.5%; */
   }
   
