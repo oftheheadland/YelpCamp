@@ -16,8 +16,8 @@
     <% campgrounds.forEach(function(campground){ %>
       <div class="col-md-3 col-sm-6">
         <div class="thumbnail">
-            <a href="https://www.w3schools.com">
-          <img src="<%= campground.image %>">
+            <a href="/campgrounds/<%= campground._id %>">
+          <img class="thumbnail" src="<%= campground.image %>">
           </a>
           <div class="caption text-center">
             <h4><%= campground.name %></h4>
