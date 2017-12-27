@@ -1,12 +1,10 @@
 # YelpCamp
 
-YelpCamp is a project that was completed as a part of [Colt Steele's bootcamp](https://www.udemy.com/the-web-developer-bootcamp/).  My version of YelpCamp has a few tweaks beyond what was coded in class.
+YelpCamp is a project that was completed as a part of [Colt Steele's bootcamp](https://www.udemy.com/the-web-developer-bootcamp/).
 
-# Setup
+This project has been expanded beyond what was done in the course.
 
-Different setups are needed if you plan on using YelpCamp locally (or Cloud9) verus the Heroku + MongoLab setup.  This is accomplished using enviornment variables.
-
-## Local/Cloud9 Setup
+## Local Setup
 
 Run the following commands in the terminal.  Be sure to update information as necessary.
 
@@ -21,6 +19,7 @@ export SESSION_SECRET=Whatever phrase you choose
 Update the variables as follows:
 
 **DATABASEURL**=mongodb://\<dbuser>:\<dbpassword>@1234.mlab.<span></span>com:19990/yelp-camp
+
 **SESSION_SECRET**=Whatever phrase you choose
 
 
@@ -34,4 +33,4 @@ heroku config:set SESSION_SECRET='Whatever phrase you choose'
 
 # Deployed
 
-The app is deployed [here](https://afternoon-bastion-42908.herokuapp.com/) at Heroku (also using [MongoLab](http://mlab.com)).
+The app is deployed [here](https://oftheheadlandcamp.herokuapp.com/) at Heroku (also using [MongoLab](http://mlab.com)).
