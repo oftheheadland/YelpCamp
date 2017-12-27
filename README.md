@@ -1,5 +1,7 @@
 # YelpCamp
 
+![https://oftheheadlandcamp.herokuapp.com/](https://i.imgur.com/emWipIE.jpg)
+
 YelpCamp is a project that was completed as a part of [Colt Steele's bootcamp](https://www.udemy.com/the-web-developer-bootcamp/).
 
 This project has been expanded beyond what was done in the course.
